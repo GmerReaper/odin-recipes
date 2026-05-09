@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <h1>Odin Recipes</h1>
-    <ul>
-    <li><a href="recipes/potatosalad.html">Potato Salad</a></li>
-    <li><a href="recipes/sesamegrilledsalmon.html">Sesame Grilled Salmon</a></li>
-    <li><a href="recipes/lemoncheesecake.html">Lemon Cheesecake</a></li>
-    </ul>
+    <a href="https://github.com/GmerReaper/odin-recipes" class="github-btn" target="_blank">View on GitHub</a>
+    <div class="recipes-container">
+        <div class="recipe-card">
+            <a href="recipes/potatosalad.html">
+                <img src="./pictures/PotatoSalad.jpg.webp" alt="Potato Salad">
+                <p>Potato Salad</p>
+            </a>
+        </div>
+
+        <div class="recipe-card">
+            <a href="recipes/sesamegrilledsalmon.html">
+                <img src="./pictures/Salmon.jpg" alt="Sesame Grilled Salmon">
+                <p>Sesame Grilled Salmon</p>
+            </a>
+        </div>
+        <div class="recipe-card">
+            <a href="recipes/lemoncheesecake.html">
+                 <img src="./pictures/LemonCheeseCake.jpg" alt="Lemon CheeseCake">
+                 <p>Lemon Cheesecake</p>
+            </a>
+        </div>
+    </div>
+
+     <footer class="recipe-footer">
+        <p>Image and recipe credit:</p>
+        <a href="https://www.allrecipes.com/" class="footer-logo" target="_blank">
+            <img src="./pictures/logo.png" alt="All Recipes">
+        </a>
+        <!-- Logo from favpng.com  -->
+         <p><small>Logo from <a href="https://favpng.com">favpng.com</a></small></p>
+    </footer>
+   
 </body>
 </html>
